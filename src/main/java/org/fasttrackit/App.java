@@ -10,6 +10,7 @@ public class App
     {
         System.out.println( "Hello World!" );
 
+
         OperatiiMatematice operatii = new OperatiiMatematice();
         operatii.adunarea(14, 7);
         System.out.println();
