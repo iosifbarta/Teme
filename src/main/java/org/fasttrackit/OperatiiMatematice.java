@@ -21,8 +21,8 @@ public class OperatiiMatematice {
         System.out.println("inmultirea: " + number1 + " * " + number2 + " = " + num);
         return num;
     }
-    public double impartirea(int number1, int number2) {
-        float num = number1 / number2;
+    public double impartirea(double number1, double number2) {
+        double num = number1 / number2;
         System.out.println("impartirea: " + number1 + " / " + number2 + " = " + num);
         return num;
     }
