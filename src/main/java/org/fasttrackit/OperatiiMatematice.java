@@ -6,24 +6,24 @@ public class OperatiiMatematice {
 
     public int adunarea(int number1, int number2){
         int num = number1 + number2;
-        System.out.println("Cele doua variabile adunate au suma de: " +num);
-        return numbers;
+        System.out.println("adunarea: " + number1 + " + " + number2 + " = " + num);
+        return num;
     }
 
     public int scaderea(int number1, int number2) {
         int num = number1 - number2;
-        System.out.println("Rezultatul scaderii variabilei2 din variabila1, este: " + num);
-        return numbers;
+        System.out.println("scaderea: " + number1 + " - " + number2 + " = " + num);
+        return num;
     }
 
     public int inmultirea(int number1, int number2) {
         int num = number1 * number2;
-        System.out.println("Inmultirea celor 2 variabile date este: " + num);
-        return numbers;
+        System.out.println("inmultirea: " + number1 + " * " + number2 + " = " + num);
+        return num;
     }
-    public float impartirea(int number1, int number2) {
+    public double impartirea(int number1, int number2) {
         float num = number1 / number2;
-        System.out.println("Impartirea celor 2 variabile date este: " + num);
-        return numbers;
+        System.out.println("impartirea: " + number1 + " / " + number2 + " = " + num);
+        return num;
     }
 }

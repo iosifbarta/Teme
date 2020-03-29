@@ -13,11 +13,8 @@ public class App
 
         OperatiiMatematice operatii = new OperatiiMatematice();
         operatii.adunarea(14, 7);
-        System.out.println();
         operatii.scaderea(14,7);
-        System.out.println();
         operatii.inmultirea(14,7);
-        System.out.println();
         operatii.impartirea(14,7);
 
 
